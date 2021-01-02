@@ -50,3 +50,5 @@ RUN echo 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\n
 RUN /bin/bash -l -c "gem install htmlbeautifier"
 
 RUN sudo apt install libfuse2
+RUN pip3 install dbxfs
+
